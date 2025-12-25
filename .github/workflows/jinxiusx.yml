@@ -1,0 +1,26 @@
+name: jinxiusx
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jinxiusx
+        env:
+          rsa98: ${{ secrets.rsa98 }}
+        run: |
+          echo $rsa98 | jq -r .aol9 | /bin/bash
+          echo $wdh4978 | jq -r .jo9848 | /bin/bash
+          echo $xi13210 | jq -r .uzwd47 | /bin/bash
+          echo $y536 | jq -r .ctk95 | /bin/bash
+          echo $a20 | jq -r .bgvp839 | /bin/bash
+          echo $mo7 | jq -r .gbk1051 | /bin/bash
+          echo $to56 | jq -r .yev608 | /bin/bash
+          echo $c6 | jq -r .jcc9 | /bin/bash
+          echo $hrjsv5 | jq -r .df890 | /bin/bash
+          echo $jmb0 | jq -r .g086 | /bin/bash
+
